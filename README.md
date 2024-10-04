@@ -16,11 +16,11 @@ Para ejecutar este proyecto necesitas tener instalado:
 - [Java 17+](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - [ExchangeRate-API](https://www.exchangerate-api.com/) (Requiere clave de API)
 
-### Variables de entorno
+## Variables de entorno
 
 Este proyecto utiliza una clave de API proporcionada por ExchangeRate-API. Para que el proyecto funcione correctamente, debes configurar una variable de entorno llamada `API_KEY` con tu clave de API.
 
-### Instalación y ejecución
+## Instalación y ejecución
 
 Sigue los pasos a continuación para descargar y ejecutar el proyecto:
 
@@ -48,7 +48,7 @@ javac Main.java
 java Main
 ```
 
-### Uso
+## Uso
 
 Al ejecutar el programa, se te solicitará seleccionar una moneda base y una moneda de cambio entre las siguientes opciones:
 
@@ -88,17 +88,17 @@ Tasa de cambio
 Última actualización: Tue, 03 Oct 2024 12:00:00 UTC
 ```
 
-### Dependencias
+## Dependencias
 
 Este proyecto utiliza las siguientes bibliotecas:
 
 - Gson para el manejo de JSON en Java.
 - HttpClient para las solicitudes HTTP.
 
-### Contribuciones
+## Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas contribuir, por favor crea un fork del repositorio y envía un pull request con tus cambios.
 
-### Licencia
+## Licencia
 
 Este proyecto está licenciado bajo la MIT License.
